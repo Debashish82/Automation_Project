@@ -27,5 +27,5 @@ sudo rm -rf /tmp/*.tar.gz
 if [ ! -f /etc/cron.d/automation ] ;
 then
         sudo touch /etc/cron.d/automation
-                sudo echo '* * * * *  root /root/Automation_Project/automation.sh' > /etc/cron.d/automation;
+                sudo echo '* 10 * * *  root /root/Automation_Project/automation.sh' > /etc/cron.d/automation;
 fi
